@@ -12,8 +12,8 @@ public class Storage {
     private Writer writer;
     private TaskList tasks;
 
-    private static final String STORAGE_DIR = "./src/main/data/veneto.txt";
-    private static final String STORAGE_PATH = "./src/main/data/veneto.txt";
+    private static final String STORAGE_DIR = "./data";
+    private static final String STORAGE_PATH = "./data/veneto.txt";
 
     /* Constructors */
 

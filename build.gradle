@@ -44,18 +44,17 @@ test {
 
 application {
     mainClass.set("veneto.Launcher")
-    mainClassName = 'veneto.Main'
 }
 
 shadowJar {
     archiveBaseName = "veneto"
     archiveClassifier = null
     dependsOn("distZip", "distTar")
-//    archiveFileName = 'veneto-v1.0.2.jar'
+    archiveFileName = 'veneto-v1.0.5.jar'
 }
 
 
 run{
     standardInput = System.in
-    enableAssertions = true
+//    enableAssertions = true
 }
